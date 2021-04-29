@@ -1,0 +1,40 @@
+/* apply styles to <header> */
+header {
+  padding: 10px 20px;
+  background-color: #eab75d;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav {
+  width: 100px;
+  float: left;
+  left: 10px;
+  display: inline;
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  z-index: 1;
+  background-color: #eab75d;
+  padding: 10px 20px;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* apply styles to <body> */
+body {
+  /* more on this crazy alphanumerical value in a minute! */
+  color: #020201;
+  background-color: #cbd0cb;
+  font-family: "Roboto", sans-serif;
+}
